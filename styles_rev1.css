@@ -1,0 +1,234 @@
+
+body {
+  background-color:#e2e0db;
+  color: white;
+
+}
+/********************** Section "Image" **********************/
+
+
+.img-fluid {
+    width: 100%;
+  height: auto;
+ 
+}
+
+/********************** Section "Header" **********************/
+#header {
+opacity:0.8;
+text-align: center;
+padding: 2% 25%;
+position: absolute;
+top: 100px;
+
+}
+
+.hello {
+  font-size: 8rem;
+  
+}
+
+
+
+.programmer {
+font-family: 'Roboto', sans-serif;
+font-size: 2.5rem;
+}
+
+
+
+
+/********************** Section "Middle" **********************/
+#middle {
+  padding: 2% 15%;
+ 
+
+}
+
+hr {
+  border: dotted #545251 6px; 
+  border-bottom: none; 
+  width: 4%; 
+  margin-bottom: 3%;
+}
+
+.row {
+  background-color: #545251;
+  border: 1px solid #545251;
+  border-radius: 8px;
+ 
+  
+}
+
+.feature-box { 
+  text-align: left;
+  padding: 5%;  /*Для кажддого бокса с текстом и иконками зададим размещение по центру и 5% смещение от стенок бокса*/
+} 
+
+h1 {
+ text-align:center;
+  margin-bottom: 20px;
+  margin-top: 6%;
+  font-size: 3rem;
+}
+
+h1, h3 {
+  font-family: 'Courgette', cursive;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  line-height: 1.6;
+}
+
+/* Icon Styles */
+.icon{
+  margin-bottom:1rem;
+}
+
+
+/********************** Section "Footer" **********************/
+
+footer {
+  text-align: center;
+  padding: 7% 15%;
+  color: #262525;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+.social-icon {
+  font-size: 1.3rem;
+}
+
+a {
+  color: #262525;
+  font-size: 1.3rem;
+}
+
+a:hover {
+  color: #262525;
+  font-size: 1.3rem;
+}
+
+/*Запишем условия, при которых при уменьшении экрана свойства нашего текста будут меняться*/
+@media (max-width: 1470px) /*это условие истинно до тех пор, пока длина экрана не привысит 820 пикселей*/
+{
+    .hello
+{
+   font-size: 7rem;
+
+}
+}
+
+
+@media (max-width: 1290px) /*это условие истинно до тех пор, пока длина экрана не привысит 820 пикселей*/
+{
+    .hello
+{
+   font-size: 6rem;
+
+}
+#header {
+  top:50px;
+}
+}
+
+@media (max-width: 1110px) /*это условие истинно до тех пор, пока длина экрана не привысит 820 пикселей*/
+{
+    .hello
+{
+   font-size: 5rem;
+
+}
+#header {
+  top:50px;
+}
+}
+
+@media (max-width: 975px) /*это условие истинно до тех пор, пока длина экрана не привысит 820 пикселей*/
+{
+    .hello
+{
+   font-size: 5rem;
+
+}
+
+.programmer
+{
+  font-size: 2rem;
+}
+#header {
+  top:40px;
+}
+}
+
+@media (max-width: 925px) /*это условие истинно до тех пор, пока длина экрана не привысит 820 пикселей*/
+{
+    .hello
+{
+   font-size: 4rem;
+
+}
+
+.programmer
+{
+  font-size: 1.5rem;
+}
+#header {
+  top:30px;
+}
+}
+
+@media (max-width: 745px) /*это условие истинно до тех пор, пока длина экрана не привысит 820 пикселей*/
+{
+    .hello
+{
+   font-size: 3.5rem;
+
+}
+
+.programmer
+{
+  font-size: 1.5rem;
+}
+#header {
+  top:20px;
+}
+}
+
+@media (max-width: 655px) /*это условие истинно до тех пор, пока длина экрана не привысит 820 пикселей*/
+{
+    .hello
+{
+   font-size: 3rem;
+
+}
+
+.programmer
+{
+  font-size: 1.5rem;
+}
+#header {
+  top:20px;
+}
+}
+
+@media (max-width: 595px) /*это условие истинно до тех пор, пока длина экрана не привысит 820 пикселей*/
+{
+    .hello
+{
+   font-size: 2.5rem;
+
+}
+
+.programmer
+{
+  font-size: 1.2rem;
+}
+#header {
+  top:10px;
+}
+}
+
